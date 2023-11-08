@@ -4,7 +4,7 @@
 
 Welcome to the Zoo Keeper challenge! This project is a web application that allows zookeepers to manage the animals in their care. It's a practical exercise in handling user events and making fetch requests to a mock API for CRUD operations.
 
-![Zoo Keeper App](img/zoo-keeper-final-2.jpg)
+![Zoo Keeper App](img/zoo-keeper-final.jpg)
 
 ## Learning Goals
 
@@ -47,6 +47,7 @@ To try this challenge on your own:
 
 - **Fetch Animals**: On load, animals are fetched and displayed.
 - **Add New Animal**: Submit a form to add a new animal.
+  ![Zoo Keeper App](img/zoo-keeper-final-2.jpg)
 - **Update Animal Details**: Click a like button to update details.
 - **Delete Animal**: Remove an animal from the collection.
 
