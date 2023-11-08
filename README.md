@@ -16,15 +16,20 @@ Welcome to the Zoo Keeper challenge! This project is a web application that allo
 
 - Node.js - [Download & Install Node.js](https://nodejs.org/en/download/).
 
-### Installation
+### Fork and Clone
 
-1. Clone the repository:
+To try this challenge on your own:
+
+1. Fork this repository by clicking the "Fork" button at the top right of this page.
+2. Clone your forked repository to your local machine:
    ```bash
-   git clone https://github.com/RedBeret/phase-1-practice-zoo-keeper.git
+   git clone https://github.com/YOUR-USERNAME/JS-Zoo-Keeper-Challenge.git
    ```
-2. Navigate to the project directory and install the dependencies:
+   Replace `YOUR-USERNAME` with your GitHub username.
+   
+3. Navigate to the project directory and install the dependencies:
    ```bash
-   cd phase-1-practice-zoo-keeper
+   cd JS-Zoo-Keeper-Challenge
    npm install
    ```
 
@@ -34,7 +39,7 @@ Welcome to the Zoo Keeper challenge! This project is a web application that allo
   ```bash
   npm start
   ```
-- Open `index.html` in a web browser.
+- Open `index.html` in a web browser to see the application in action.
 
 ## Features
 
@@ -59,4 +64,4 @@ By completing this project, you'll have a web app that lets zookeepers manage th
 
 ## Support
 
-For issues, please visit the [issues section](https://github.com/RedBeret/phase-1-practice-zoo-keeper/issues).
+If you encounter any issues or have questions, feel free to raise them in the [issues section](https://github.com/RedBeret/JS-Zoo-Keeper-Challenge/issues).
