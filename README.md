@@ -1,4 +1,4 @@
-# Zoo Keeper: Animal Management Application
+# Zoo Keeper: Management System Application
 
 ## Introduction
 
@@ -43,28 +43,36 @@ To try this challenge on your own:
   ```
 - Open `index.html` in a web browser to see the application in action.
 
-## Features
+## Challenges
 
-- **Fetch Animals**: On load, animals are fetched and displayed.
-- **Add New Animal**: Submit a form to add a new animal.
-  ![Zoo Keeper App](img/zoo-keeper-final-2.jpg)
-- **Update Animal Details**: Click a like button to update details.
-- **Delete Animal**: Remove an animal from the collection.
+### Challenge 1: Display Animals
 
-## Project Structure
+Upon loading the application, retrieve and display all animals from `http://localhost:3000/animals` as individual cards within the animal list.
 
-- `src/index.js`: Application logic.
-- `.gitignore`: Files and directories to ignore.
-- `index.html`: HTML markup.
-- `style.css`: Styling.
-- `package.json`: App dependencies.
-- `assets/`: Static files like images.
-- `db.json`: Mock database.
+### Challenge 2: Animal Details
+
+The details of the first animal in the list should be displayed on the page as soon as it loads.
+
+### Challenge 3: Selecting an Animal
+
+When you click on an animal card, populate a detail area with the animal's image, name, likes, and other details.
+
+### Challenge 4: Like Feature
+
+Implement a like button on each animal card. When clicked, the number of likes should increase for that animal both in the database and on the DOM.
+
+### Challenge 5: Delete Feature
+
+Add a delete button to each animal card that allows users to remove the animal from the collection. This should delete the animal from the database and remove the card from the DOM.
+
+### Challenge 6: Add New Animal
+
+Provide a form that allows users to add a new animal. When a new animal is added through the form, it should be posted to the database and displayed on the page without needing to refresh.
+
+### Extra Credit: Update Animal Details
+
+As an extra credit challenge, implement a feature that allows users to update the details of an existing animal in the database.
 
 ## Conclusion
 
-By completing this project, you'll have a web app that lets zookeepers manage their animals, showcasing your skills in web development.
-
-## Support
-
-If you encounter any issues or have questions, feel free to raise them in the [issues section](https://github.com/RedBeret/JS-Zoo-Keeper-Challenge/issues).
+By completing this project and the additional challenges, you'll have a robust web app that lets zookeepers manage their animals, demonstrating your abilities in web development.
