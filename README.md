@@ -1,4 +1,4 @@
-# Zoo Keeper: Management System Application
+# JavaScript Zoo Keeper Challenge Application
 
 ## Introduction
 
