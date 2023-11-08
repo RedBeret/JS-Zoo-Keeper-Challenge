@@ -4,7 +4,7 @@
 
 Welcome to the Zoo Keeper challenge! This project is a web application that allows zookeepers to manage the animals in their care. It's a practical exercise in handling user events and making fetch requests to a mock API for CRUD operations.
 
-![Zoo Keeper App](img/zoo-keeper-final.jpg)
+![Zoo Keeper App](img/zoo-keeper-final-2.jpg)
 
 ## Learning Goals
 
