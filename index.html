@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Zoo Keeper Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="zoo-header">
+    <h1>Zoo Keeper Management System</h1>
+    <button id="new-animal-btn">Add New Animal</button>
+    <div class="container">
+      <form class="add-animal-form">
+        <h3>Add a new animal</h3>
+        <input type="text" name="name" placeholder="Enter animal's name..." class="input-text" />
+        <input type="text" name="image" placeholder="Enter animal's image URL..." class="input-text" />
+        <input type="submit" name="submit" value="Add Animal" class="submit" />
+      </form>
+    </div>
+  </header>
+
+  <div id="animal-collection" class="animal-collection"></div>
+
+  <script type="text/javascript" defer src="src/index.js"></script>
+</body>
+
+</html>

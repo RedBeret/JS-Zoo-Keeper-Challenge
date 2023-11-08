@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+#zoo-header {
+  background: #78C850;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+}
+
+#zoo-header h1 {
+  color: white;
+}
+
+#new-animal-btn {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+#new-animal-btn:hover {
+  background-color: #e2e6ea;
+}
+
+.container {
+  display: none;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.add-animal-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-text {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #78C850;
+  color: white;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #66a344;
+}
+
+.animal-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.card h2,
+.card p {
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.like-btn {
+  background-color: #78C850;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0 0 10px 10px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  background-color: #66a344;
+}
+
+@media (max-width: 600px) {
+  .animal-collection {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "animals": [
+        {
+            "id": 1,
+            "name": "Panda",
+            "image": "https://images.unsplash.com/photo-1597953601374-1ff2d5640c85",
+            "likes": 0
+        },
+        {
+            "id": 2,
+            "name": "Flamingo",
+            "image": "https://images.unsplash.com/photo-1568171277061-6f11c87eb0c2",
+            "likes": 0
+        },
+        {
+            "id": 3,
+            "name": "Rhinoceros",
+            "image": "https://images.unsplash.com/photo-1551077999-c067a4684abe",
+            "likes": 0
+        },
+        {
+            "id": 4,
+            "name": "Tiger",
+            "image": "https://images.unsplash.com/photo-1601089538814-fd6031cec6cc",
+            "likes": 0
+        },
+        {
+            "id": 5,
+            "name": "Giraffe",
+            "image": "https://images.unsplash.com/photo-1575047625243-c5ffe38fed56",
+            "likes": 0
+        },
+        {
+            "id": 6,
+            "name": "White Tiger",
+            "image": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131",
+            "likes": 0
+        },
+        {
+            "id": 7,
+            "name": "Meerkat",
+            "image": "https://images.unsplash.com/photo-1612412664025-052be804ccf7",
+            "likes": 0
+        },
+        {
+            "id": 8,
+            "name": "Bear",
+            "image": "https://images.unsplash.com/photo-1561127954-65393e6644d1",
+            "likes": 0
+        }
+    ]
+}

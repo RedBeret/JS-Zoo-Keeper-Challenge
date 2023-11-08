@@ -1,0 +1,28 @@
+{
+  "name": "JS-Zoo-Keeper-Challenge",
+  "version": "1.0.0",
+  "description": "A practice project for managing a virtual zoo, responding to user events, and using fetch requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedBeret/JS-Zoo-Keeper-Challenge.git"
+  },
+  "keywords": [
+    "zoo keeper",
+    "animal management",
+    "user events",
+    "fetch requests"
+  ],
+  "author": "RedBeret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedBeret/JS-Zoo-Keeper-Challenge/issues"
+  },
+  "homepage": "https://github.com/RedBeret/JS-Zoo-Keeper-Challenge#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
