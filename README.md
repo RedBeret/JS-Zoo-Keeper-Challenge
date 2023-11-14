@@ -49,23 +49,15 @@ To try this challenge on your own:
 
 Upon loading the application, retrieve and display all animals from `http://localhost:3000/animals` as individual cards within the animal list.
 
-### Challenge 2: Animal Details
-
-The details of the first animal in the list should be displayed on the page as soon as it loads.
-
-### Challenge 3: Selecting an Animal
-
-When you click on an animal card, populate a detail area with the animal's image, name, likes, and other details.
-
-### Challenge 4: Like Feature
+### Challenge 2: Like Feature
 
 Implement a like button on each animal card. When clicked, the number of likes should increase for that animal both in the database and on the DOM.
 
-### Challenge 5: Delete Feature
+### Challenge 3: Delete Feature
 
 Add a delete button to each animal card that allows users to remove the animal from the collection. This should delete the animal from the database and remove the card from the DOM.
 
-### Challenge 6: Add New Animal
+### Challenge 4: Add New Animal
 
 Provide a form that allows users to add a new animal. When a new animal is added through the form, it should be posted to the database and displayed on the page without needing to refresh.
 
